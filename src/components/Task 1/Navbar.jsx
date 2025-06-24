@@ -5,15 +5,17 @@ import IconButton from "@mui/material/IconButton";
 import NightlightRoundIcon from "@mui/icons-material/NightlightRound";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import { grey } from "@mui/material/colors";
+
 function Navbar() {
   return (
     <>
       <AppBar position="static" color="light">
         <Toolbar>
-          <IconButton color="#212121" sx={{ mr: 1 }}>
+          <IconButton color={grey[900]} sx={{ mr: 1 }}>
             <NotificationsIcon />
           </IconButton>
-          <IconButton color="#212121">
+          <IconButton color={grey[900]}>
             <NightlightRoundIcon />
           </IconButton>
 
