@@ -1,7 +1,5 @@
 import { Box, Container, Button, Typography } from "@mui/material";
-import IconButton from "@mui/material/IconButton";
-import PersonIcon from "@mui/icons-material/Person";
-import { yellow, grey } from "@mui/material/colors";
+import { yellow } from "@mui/material/colors";
 import Avatart from "./Avatart";
 import ReadMoreBtn from "./ReadMoreBtn";
 

@@ -17,6 +17,7 @@ function Avatart() {
           sx={{
             width: 300,
             height: 300,
+            bgcolor: grey[300],
             borderColor: "white",
             borderWidth: 3,
             borderStyle: "solid",
