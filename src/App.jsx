@@ -1,15 +1,20 @@
 import "./App.css";
 import AppBarComp from "./components/AppBarComp";
 import CategoriesList from "./components/CategoriesList";
-import ProductCard from "./components/ProductCard";
 import ProductsList from "./components/ProductsList";
+
+import Navbar from "./components/Task 1/Navbar";
 
 function App() {
   return (
     <>
-      <AppBarComp />
+      {/* Task 1 */}
+      <Navbar />
+
+      {/* Task 2 */}
+      {/* <AppBarComp />
       <CategoriesList />
-      <ProductsList />
+      <ProductsList /> */}
     </>
   );
 }
