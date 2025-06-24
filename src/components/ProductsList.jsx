@@ -1,6 +1,17 @@
 import ProductCard from "./ProductCard";
 import { Grid, Container, Typography } from "@mui/material";
 
+// Images Imports
+import smartphoneImg from "../assets/smartphone.jfif";
+import laptopImg from "../assets/laptop.jfif";
+import headphoneImg from "../assets/headphone.jfif";
+import smartwatchImg from "../assets/Smartwatch.jfif";
+import gamingConsoleImg from "../assets/Gaming Console.jfif";
+import bluetoothSpeakerImg from "../assets/BluetoothSpeaker.jfif";
+import digitalCameraImg from "../assets/digitalCamera.jfif";
+import deskLampImg from "../assets/laptop.jfif";
+import backpackImg from "../assets/smartphone.jfif";
+
 function ProductsList() {
   const products = [
     {
@@ -8,7 +19,7 @@ function ProductsList() {
       title: "Smartphone",
       description:
         "High-performance smartphone with stunning display and long battery life.",
-      image: "https://via.placeholder.com/300x200?text=Smartphone",
+      image: smartphoneImg,
       price: 899,
     },
     {
@@ -16,7 +27,7 @@ function ProductsList() {
       title: "Laptop",
       description:
         "Lightweight laptop with powerful specs for both work and gaming.",
-      image: "https://via.placeholder.com/300x200?text=Laptop",
+      image: laptopImg,
       price: 1299,
     },
     {
@@ -24,7 +35,7 @@ function ProductsList() {
       title: "Headphones",
       description:
         "Noise-cancelling headphones with crystal-clear sound and comfort.",
-      image: "https://via.placeholder.com/300x200?text=Headphones",
+      image: headphoneImg,
       price: 199,
     },
     {
@@ -32,7 +43,7 @@ function ProductsList() {
       title: "Smartwatch",
       description:
         "Track your health and stay connected with this sleek smartwatch.",
-      image: "https://via.placeholder.com/300x200?text=Smartwatch",
+      image: smartwatchImg,
       price: 299,
     },
     {
@@ -40,7 +51,7 @@ function ProductsList() {
       title: "Gaming Console",
       description:
         "Next-gen gaming experience with ultra-fast performance and graphics.",
-      image: "https://via.placeholder.com/300x200?text=Console",
+      image: gamingConsoleImg,
       price: 499,
     },
     {
@@ -48,7 +59,7 @@ function ProductsList() {
       title: "Bluetooth Speaker",
       description:
         "Portable speaker with powerful sound and long-lasting battery.",
-      image: "https://via.placeholder.com/300x200?text=Speaker",
+      image: bluetoothSpeakerImg,
       price: 149,
     },
     {
@@ -56,14 +67,14 @@ function ProductsList() {
       title: "Digital Camera",
       description:
         "Capture moments in high resolution with this easy-to-use camera.",
-      image: "https://via.placeholder.com/300x200?text=Camera",
+      image: digitalCameraImg,
       price: 599,
     },
     {
       id: 8,
       title: "Desk Lamp",
       description: "Modern LED desk lamp with adjustable brightness and angle.",
-      image: "https://via.placeholder.com/300x200?text=Lamp",
+      image: deskLampImg,
       price: 89,
     },
     {
@@ -71,13 +82,13 @@ function ProductsList() {
       title: "Backpack",
       description:
         "Durable and stylish backpack suitable for work, school, or travel.",
-      image: "https://via.placeholder.com/300x200?text=Backpack",
+      image: backpackImg,
       price: 59,
     },
   ];
 
   return (
-    <Container sx={{ mt: 5 }} maxWidth="lg">
+    <Container sx={{ mt: 5, mb: 5 }} maxWidth="lg">
       <Grid container spacing={5}>
         {products.map((product) => (
           <Grid item xs={12} sm={6} md={4} key={product.id}>
