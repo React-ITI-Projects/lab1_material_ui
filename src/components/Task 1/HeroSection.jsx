@@ -9,7 +9,7 @@ function HeroSection() {
     <Box
       sx={{
         minHeight: "80vh",
-        backgroundImage: `linear-gradient(to left, rgb(91, 42, 145), #2575fc)`,
+        backgroundImage: `linear-gradient(to left, #8e2de2, #007bff)`,
         display: "flex",
         alignItems: "center",
         justifyContent: "space-evenly",
@@ -33,7 +33,7 @@ function HeroSection() {
           variant="h3"
           fontWeight="bold"
           gutterBottom
-          sx={{ fontFamily: "Tajawal", color: yellow[700] }}
+          sx={{ fontFamily: "Tajawal", color: yellow[600] }}
         >
           {name}
         </Typography>

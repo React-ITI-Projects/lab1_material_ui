@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Task 1/Navbar";
 import HeroSection from "./components/Task 1/HeroSection";
 import SkillsSection from "./components/Task 1/SkillsSection";
+import ContactUs from "./components/Task 1/ContactUs";
 
 // Task 2
 import AppBarComp from "./components/AppBarComp";
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <SkillsSection />
+      <ContactUs />
 
       {/* Task 2 */}
       {/* <AppBarComp />
